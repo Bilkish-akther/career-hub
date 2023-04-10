@@ -8,7 +8,7 @@ const Header = () => {
         <div className='bg-gray-200 '>
 
             <div className='hub '>
-                <h2 className='text-2xl font-semibold '>CareerHub</h2>
+                <h2 className='text-2xl font-semibold '>EmployNet</h2>
                 <nav className='gap-8  flex'>
 
                     <Link to="/">Statistics</Link>
