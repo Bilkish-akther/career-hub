@@ -1,10 +1,16 @@
 import React from 'react';
 
 const Jobfeatured = ({featured}) => {
-    const {job_title, company_name, location} =featured;
+    const {id, company_logo, job_title, company_name, location} =featured;
     return (
-        <div>
-            <h2>this is page:{company_name}</h2>
+        <div >
+            <p>{id}</p>
+            <img src={company_logo} alt="" />
+             <h1>{job_title}</h1>
+            <h2>{company_name}</h2>
+            <p>{location}</p>
+            <button>{fulltime_or_parttime}</button>
+          
         </div>
     );
 };

@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
-import Jobfeatured from '../Jobfeatured/Jobfeatured';
+
+import Featured from '../Featured/Featureds';
 
 
 
@@ -10,8 +11,9 @@ const Admin = () => {
         <div>
            
             <Header></Header>
-    
+          
             <Outlet></Outlet>
+            <Featured></Featured>
         </div>
     );
 };

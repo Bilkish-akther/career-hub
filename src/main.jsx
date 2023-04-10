@@ -35,12 +35,12 @@ import Featured from "./components/Featured/Featureds";
           path: '/',
           element: <Cetagory></Cetagory>,
           loader: () => fetch('jobcategorys.json')
-        },
+        },                    
   
         {
-          path: "featured",
+          path: "/",
           element: <Featured></Featured>,
-          loader: () => fetch('featureds.json')
+          
         },
 
 
