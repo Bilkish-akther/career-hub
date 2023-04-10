@@ -7,7 +7,7 @@ const Cetagory = () => {
     const [job, setJob]=useState([]);
     
     return (
-        <div className='text-center mt-16 '>
+        <div className='text-center mt-16  '>
             <div className=''>
             <h1 className='text-2xl'>Job Category List</h1>
             <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
