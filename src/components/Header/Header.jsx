@@ -30,7 +30,7 @@ const Header = () => {
                 </div>
 
                 <div
-                    class="bg_image"
+                    className="bg_image"
                 >
                    
                 </div>
