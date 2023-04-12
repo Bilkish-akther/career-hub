@@ -7,11 +7,9 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Netlify Live link:](##https://lambent-biscotti-bacfb2.netlify.app/)
-* [ Git Hub Link:](##https://github.com/Porgramming-Hero-web-course/b 
-7a9-career-hub-Bilkish-akther)
 
- # Live Link https://melodic-tanuki-f0daa7.netlify.app/ 
+
+ * Live Link https://melodic-tanuki-f0daa7.netlify.app/ 
 
 
     # Number Of Tools Using In Project 
