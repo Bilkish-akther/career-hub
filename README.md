@@ -8,7 +8,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Netlify Deploy](#setup)
-* [Netlify Live link ](#setup)
+* [Netlify Live link:https://aesthetic-trifle-329c6f.netlify.app/blog](#setup)
 * [ Git Hub Link](#setup)
     # Number Of Tools Using In Project 
     ### Git for version control
