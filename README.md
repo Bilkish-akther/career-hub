@@ -7,8 +7,8 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Netlify Live link:](https://lambent-biscotti-bacfb2.netlify.app/applied)
-* [ Git Hub Link:](#https://aesthetic-trifle-329c6f.netlify.app/blog)
+* [Netlify Live link:](##https://lambent-biscotti-bacfb2.netlify.app/)
+* [ Git Hub Link:](##https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-Bilkish-akther)
     # Number Of Tools Using In Project 
     ### Git for version control
     ### GitHub or GitLab for hosting the code and collaboration
