@@ -48,7 +48,7 @@ const JobDetails = () => {
       </div>
       <div className="main-container gap-0 rounded -ms-24 mt-11 me-6 px-20 py-12">
 
-        <div className="balDesign">
+        <div className="jobMain">
          <h1 className="" ><span className=" text-2xl ">job_description: </span> {job_description}</h1>
           <p> <span className=" text-2xl"> job_responsibility: </span> {job_responsibility}</p>
           <h1><span className=" text-2xl "> educational_requirements:</span> {educational_requirements}</h1>
