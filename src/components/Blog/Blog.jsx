@@ -5,8 +5,8 @@ const Blog = () => {
     return (
         <div className='Question-one mt-20 ms-60 me-32' >
             <div className='AllQuestionDesign'>
-                <h2>1.When should you use context API?</h2>
-                <p className='Question-one'>
+                <h2 className='text-2xl '>1.When should you use context API?</h2>
+                <p className='Question-one mt-8'>
                 
                    Context is primarily used when some data needs to be accessible by many   components at different nesting levels. Apply it sparingly because it makes component reuse more difficult. If you only want to avoid passing some props through many levels, component composition is often a simpler solution than context
                     When passing props down multiple levels becomes difficult and cumbersome.
@@ -17,9 +17,9 @@ const Blog = () => {
 
 
 
-                <h2> 2.What is a custom hook?</h2>
+                <h2 className='text-2xl'> 2.What is a custom hook?</h2>
 
-                <p className='Question-two'>
+                <p className='Question-two mt-8'>
                 A custom hook in React is a JavaScript function that starts with the prefix "use" and allows you to extract reusable logic from a component. It enables you to reuse stateful logic between components without using render props, higher-order components, or other complex patterns.
 
                 Custom hooks provide a way to encapsulate commonly used functionality that can be shared across multiple components. They are used to abstract away complex logic, reduce duplication, and promote code reusability.
@@ -31,9 +31,9 @@ const Blog = () => {
 
 
 
-                <h2 className='Question-three'>3.What is useRef?</h2>
+                <h2 className='Question-three text-2xl'>3.What is useRef?</h2>
 
-                <p>
+                <p className='mt-8'>
                 In React, useRef is a hook that provides a way to store and access mutable values that persist between renders. It returns a mutable ref object that can hold any value, similar to the ref object used in class components.
 
                 The most common use case for useRef is to access the DOM nodes or elements in the component. When a ref is attached to a component, the ref object can be used to get a reference to the underlying DOM node or element. This allows you to manipulate the DOM directly, bypassing React's virtual DOM, and access properties or methods of the underlying DOM node.
@@ -43,8 +43,8 @@ const Blog = () => {
 
 
 
-                <h2 className='Question-four'>4.What is useMemo?</h2>
-                <p>
+                <h2 className='Question-four text-2xl'>4.What is useMemo?</h2>
+                <p className='mt-8'>
                 The useMemo hook in React is used to optimize the performance of functional components by caching the result of an expensive calculation. When a component re-renders, it may execute the same calculations again and again, even if the inputs to those calculations haven't changed. This can be a waste of resources, especially if the calculation is time-consuming.
 
                 The useMemo hook memoizes the result of the calculation, meaning that it stores the value in memory and only recalculates it if the inputs to the calculation change. If the inputs are the same as before, useMemo will return the cached value instead of re-executing the calculation. This can help to improve the performance of your application by avoiding unnecessary calculations.

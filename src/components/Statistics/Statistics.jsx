@@ -34,11 +34,11 @@ const data = dataAssignment['assignments'];
           }}
         >
           <CartesianGrid stroke="#f5f5f5" />
-          <XAxis dataKey="tooltip" label={{ value: 'Number Of Assignment', position: 'insideBottomRight', offset: 0 }} scale="band" />
+          <XAxis dataKey="tooltip" label={{ position: 'insideBottomRight', offset: 0 }} scale="band" />
           <YAxis label={{ value: 'Marks', angle: -90, position: 'insideLeft' }} />
           <Tooltip />
           <Legend />
-          <Area type="monotone" dataKey="marks" fill="#8884d8" stroke="#8884d8" />
+          <Area type="monotone" dataKey="marks" fill="#82ca9d" stroke="#82ca9d" />
           <Bar dataKey="marks" barSize={20} fill="#413ea0" />
           <Line type="monotone" dataKey="marks" stroke="#ff7300" />
         </ComposedChart>

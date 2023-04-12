@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <div className="bg-gray-200 p-2  flex justify-evenly sticky">
       <h2 className="text-2xl font-semibold ms-5">Job Finder</h2>
-      <div className="">
+      <div>
         <nav className="gap-8  flex text-center justify-center pt-2">
           <Link to="/">Home</Link>
           <Link to="/statistics">Statistics</Link>
           <Link to="/applied">Applied Jobs</Link>
-          <Link to="/">Blog</Link>
+          <Link to="/blog">Blog</Link>
         </nav>
       </div>
       <div>
