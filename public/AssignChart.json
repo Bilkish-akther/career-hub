@@ -1,0 +1,45 @@
+{
+    "assignments": [
+      {
+        "number": 1,
+        "marks": 60,
+        "tooltip": "Assignment 1: 60 marks"
+      },
+      {
+        "number": 2,
+        "marks": 60,
+        "tooltip": "Assignment 2: 60 marks"
+      },
+      {
+        "number": 3,
+        "marks": 60,
+        "tooltip": "Assignment 3: 60 marks"
+      },
+      {
+        "number": 4,
+        "marks": 59,
+        "tooltip": "Assignment 4: 59 marks"
+      },
+      {
+        "number": 5,
+        "marks": 60,
+        "tooltip": "Assignment 5: 60 marks"
+      },
+      {
+        "number": 6,
+        "marks": 60,
+        "tooltip": "Assignment 6: 60 marks"
+      },
+      {
+        "number": 7,
+        "marks": 60,
+        "tooltip": "Assignment 7: 60 marks"
+      },
+      {
+        "number": 8,
+        "marks": 60,
+        "tooltip": "Assignment 8: 60 marks"
+      }
+    ]
+  }
+  

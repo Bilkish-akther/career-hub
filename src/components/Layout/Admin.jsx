@@ -3,19 +3,16 @@ import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
 
 import Featured from '../Featured/Featureds';
-import Footer from '../Footer/footer';
+import Footer from '../Footer/Footer';
 
 
 
 const Admin = () => {
     return (
         <div>
-           
             <Header></Header>
-          
             <Outlet></Outlet>
-            <Featured></Featured>
-            <Footer></Footer>
+             <Footer></Footer>
         </div>
     );
 };

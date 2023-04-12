@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Footer = () => {
     return (
         <div className=' bg-black text-slate-300   mt-8 text-left' >
@@ -10,7 +11,8 @@ const Footer = () => {
                     <h2 className='font-bold text-xl'>EmployNet</h2>
                     <p>There are many variations of passages
                          of Lorem Ipsum , but the majority have
-                         suffered alteration in some form.</p>
+                         suffered alteration in some form.  </p>
+            
                 </div>
 
 
@@ -45,10 +47,10 @@ const Footer = () => {
             </div>
 
             <hr />
-            <div className='flex '>
+            <div className='flex text-center ms-96 mb-4'>
 
                 <p className='mx-12'>@2023 CareerHub. All Rights Reserved</p>
-                <p className='mx-96'>Powered by CareerHub</p>
+                
 
             </div>
         </div>

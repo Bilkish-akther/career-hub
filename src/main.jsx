@@ -11,11 +11,10 @@ import Statistics from './components/Statistics/Statistics';
 import ApliedJob from './components/Apliedjob/ApliedJob';
 import Cetagory from "./components/Cetagory/Cetagory";
 import Featured from "./components/Featured/Featureds";
-import Footer from "./components/Footer/footer";
-
-
-
-
+import JobDetails from "./components/JobDetails/JobDetails";
+import Home from "./components/Home/Home";
+import JobCart from "./components/JobCart/JobCart";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 
   const router = createBrowserRouter([
@@ -24,31 +23,30 @@ import Footer from "./components/Footer/footer";
       element: <Admin></Admin>,
       children: [
         {
-          path: 'statistics',
+          path: '/statistics',
           element: <Statistics></Statistics>
         },
       
         {
-          path: 'apliedJob',
-          element: <ApliedJob></ApliedJob>
+          path: '/applied',
+          element: <JobCart></JobCart>
         },
         {
           path: '/',
-          element: <Cetagory></Cetagory>,
+          element: <Home></Home>,
           loader: () => fetch('jobcategorys.json')
         },                    
-  
+
         {
-          path: "/",
-          element: <Featured></Featured>,
+          path: "details/:id",
+          element: <JobDetails></JobDetails>,
           
         },
-
-             {
-
-              path: '/footer',
-              element: <Footer></Footer>
-             }
+        {
+          path: "*",
+          element: <ErrorPage></ErrorPage>,
+          
+        },
 
       ]
     },

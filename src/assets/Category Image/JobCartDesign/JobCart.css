@@ -1,0 +1,48 @@
+.jobCartDesign {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  border: 1px solid gainsboro;
+  margin-left: 14%;
+  margin-right: 14%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.imageSection {
+  display: flex;
+}
+
+.imageDiv {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.imageDiv img {
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+.job-Info-Section {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.btn-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+    background-image:  linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+.address-info{
+    display: flex;
+}
+.address-info p{
+    margin-right: 20px;
+    color: grey;
+}

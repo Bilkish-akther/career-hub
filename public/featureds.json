@@ -2,110 +2,107 @@
     {
       "id": 1,
       "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-      "job_title": "Technical Database Engineer",
+      "job_title": "Software Engineer",
       "company_name": "ABC Inc.",
       "remote_or_onsite": "Remote",
       "location": "New York, NY",
       "fulltime_or_parttime": "Full-time",
       "salary": "$100,000 - $120,000",
-      "job_description": "We are looking for a talented software engineer to join our team.",
-      "job_responsibility": "Develop new features for our software product",
+      "job_description": "In its full form, CV stands for Curriculum Vitae (latin for: course of life). In the US, Canada, and Australia, a CV is a document you use for academic purposes. The US academic CV outlines every detail of your scholarly career. In other countries, CV is an equivalent of an American resume and is used to apply for a job.",
+      
+      "job_responsibility": "If you’re fresh out of uni and need to write a student CV with no experience, or if you've graduated from a very prestigious institution within the last 5 years, put your education section above your work experience.",
       "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
       "experiences": "3+ years of experience in software engineering",
-      "contact_information": {
-        "phone": "(555) 555-5555",
-        "email": "jobs@abcinc.com"
-      }
+      "contact_information_Phone":"phone (555) 555-5555",
+      "contact_information_Email":"Email  jobs@abcinc.com"
+       
+       
+      
     },
     {
       "id": 2,
-      "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-      "job_title": "Senior Product Designer",
+      "company_logo": "https://i.ibb.co/sgkFGBN/chatgpt.jpg",
+      "job_title": "Marketing Manager",
       "company_name": "XYZ Corp.",
       "remote_or_onsite": "Onsite",
       "location": "San Francisco, CA",
       "fulltime_or_parttime": "Full-time",
       "salary": "$120,000 - $140,000",
-      "job_description": "We are seeking a talented marketing manager to lead our team.",
-      "job_responsibility": "Develop and execute marketing campaigns",
+      "job_description": "In its full form, CV stands for Curriculum Vitae (latin for: course of life). In the US, Canada, and Australia, a CV is a document you use for academic purposes. The US academic CV outlines every detail of your scholarly career. In other countries, CV is an equivalent of an American resume and is used to apply for a job.",
+
+      "job_responsibility": "If you’re fresh out of uni and need to write a student CV with no experience, or if you've graduated from a very prestigious institution within the last 5 years, put your education section above your work experience.",
       "educational_requirements": "Bachelor's or Master's degree in Marketing or related field",
       "experiences": "5+ years of experience in marketing",
-      "contact_information": {
-        "phone": "(555) 555-5555",
-        "email": "jobs@xyzcorp.com"
-      }
+      "contact_information_Phone":"phone (555) 555-5555",
+      "contact_information_Email":"Email  jobs@abcinc.com"
     },
     {
       "id": 3,
-      "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-      "job_title": "Software Engineer",
+      "company_logo": "https://i.ibb.co/0yNkxQn/web.jpg",
+      "job_title": "Sales Representative",
       "company_name": "123 LLC",
       "remote_or_onsite": "Remote",
       "location": "Austin, TX",
       "fulltime_or_parttime": "Full-time",
       "salary": "$80,000 - $100,000",
-      "job_description": "We are looking for an experienced sales representative to join our team.",
-      "job_responsibility": "Generate new leads and close sales",
+     "job_description": "In its full form, CV stands for Curriculum Vitae (latin for: course of life). In the US, Canada, and Australia, a CV is a document you use for academic purposes. The US academic CV outlines every detail of your scholarly career. In other countries, CV is an equivalent of an American resume and is used to apply for a job.",
+      
+      "job_responsibility": "If you’re fresh out of uni and need to write a student CV with no experience, or if you've graduated from a very prestigious institution within the last 5 years, put your education section above your work experience.",
       "educational_requirements": "Bachelor's degree in Business or related field",
       "experiences": "2+ years of experience in sales",
-      "contact_information": {
-        "phone": "(555) 555-5555",
-        "email": "jobs@123llc.com"
-      }
+      "contact_information_Phone":"phone (555) 555-5555",
+      "contact_information_Email":" Email  jobs@abcinc.com"
     },
     {
       "id": 4,
-      "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "company_logo": "https://i.ibb.co/djkgVqs/vpn.png",
       "job_title": "Graphic Designer",
       "company_name": "DEF Designs",
       "remote_or_onsite": "Onsite",
       "location": "Los Angeles, CA",
       "fulltime_or_parttime": "Part-time",
       "salary": "$40,000 - $60,000",
-      "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
-      "job_responsibility": "Design graphics for our clients",
+      "job_description": "In its full form, CV stands for Curriculum Vitae (latin for: course of life). In the US, Canada, and Australia, a CV is a document you use for academic purposes. The US academic CV outlines every detail of your scholarly career. In other countries, CV is an equivalent of an American resume and is used to apply for a job.",
+      
+      "job_responsibility": "If you’re fresh out of uni and need to write a student CV with no experience, or if you've graduated from a very prestigious institution within the last 5 years, put your education section above your work experience.",
       "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
       "experiences": "2+ years of experience in graphic design",
-      "contact_information": {
-          "phone": "(555) 555-5555",
-          "email": "jobs@123llc.com"
-        }
+      "contact_information_Phone":"phone (555) 555-5555",
+      "contact_information_Email":"Email  jobs@abcinc.com"
       },
     {
       "id": 5,
-      "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "company_logo": "https://i.ibb.co/SKvDTgJ/Airbin.jpg",
       "job_title": "Graphic Designer",
       "company_name": "DEF Designs",
       "remote_or_onsite": "Onsite",
       "location": "Los Angeles, CA",
       "fulltime_or_parttime": "Part-time",
       "salary": "$40,000 - $60,000",
-      "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
-      "job_responsibility": "Design graphics for our clients",
+      "job_description": "In its full form, CV stands for Curriculum Vitae (latin for: course of life). In the US, Canada, and Australia, a CV is a document you use for academic purposes. The US academic CV outlines every detail of your scholarly career. In other countries, CV is an equivalent of an American resume and is used to apply for a job.",
+      
+      "job_responsibility": "If you’re fresh out of uni and need to write a student CV with no experience, or if you've graduated from a very prestigious institution within the last 5 years, put your education section above your work experience.",
       "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
       "experiences": "2+ years of experience in graphic design",
-      "contact_information": {
-          "phone": "(555) 555-5555",
-          "email": "jobs@123llc.com"
-        }
+      "contact_information_Phone":"phone (555) 555-5555",
+      "contact_information_Email":"Email  jobs@abcinc.com"
       },
     {
       "id": 6,
-      "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "company_logo": "https://i.ibb.co/t2pYH2C/amazon-1597632720794.jpg",
       "job_title": "Graphic Designer",
       "company_name": "DEF Designs",
       "remote_or_onsite": "Onsite",
       "location": "Los Angeles, CA",
       "fulltime_or_parttime": "Part-time",
       "salary": "$40,000 - $60,000",
-      "job_description": "We are seeking a talented graphic designer to work on a part-time basis.",
-      "job_responsibility": "Design graphics for our clients",
+      "job_description": "In its full form, CV stands for Curriculum Vitae (latin for: course of life). In the US, Canada, and Australia, a CV is a document you use for academic purposes. The US academic CV outlines every detail of your scholarly career. In other countries, CV is an equivalent of an American resume and is used to apply for a job.",
+      
+      "job_responsibility": "If you’re fresh out of uni and need to write a student CV with no experience, or if you've graduated from a very prestigious institution within the last 5 years, put your education section above your work experience.",
       "educational_requirements": "Associate's or Bachelor's degree in Graphic Design or related field",
       "experiences": "2+ years of experience in graphic design",
-      "contact_information": {
-          "phone": "(555) 555-5555",
-          "email": "jobs@123llc.com"
-        }
+      "contact_information_Phone":"phone (555) 555-5555",
+      "contact_information_Email":"Email  jobs@abcinc.com"
       }
     
   ]

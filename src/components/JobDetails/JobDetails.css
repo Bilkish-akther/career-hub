@@ -1,0 +1,48 @@
+    .title-container{
+    
+        height: 120px;
+        margin-top: 60px;
+        align-items: center;
+        padding-right: 16px;
+    }
+
+        
+
+    .main-container{
+        
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        padding-right: 16px;
+    }
+
+    .jobInfo{
+
+        width: max-content;
+        margin-top: 60px;
+        align-items: center;
+        padding-left: 250px;
+         line-break: anywhere;
+
+
+    }
+ .buttonCenter {
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+ }
+ .titlesJob{
+   margin-top: 9px;
+   padding-top: 40px;
+ }
+
+
+.balDesign{
+    height: 400px;
+    border: 1px solid rgb(75, 73, 73);
+    margin-left: 14%;
+    margin-right: 14%;
+    padding: 10px;
+    border-radius: 10px;
+}

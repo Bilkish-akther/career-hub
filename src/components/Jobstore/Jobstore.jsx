@@ -9,7 +9,8 @@ const Jobstore = ({ jobcategory }) => {
 
 
             <div className='  mx-5  bg-slate-200 px-6 pt-4 '>
-                <img className='flex flex-nowrap  justify-center' src={category_logo} alt="" />
+             <img  className='flex flex-nowrap  justify-center'  src={category_logo} alt="image do not show" />
+              
 
                 <div>
                     <h4>{category_name}</h4>
