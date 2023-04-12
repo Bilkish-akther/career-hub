@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
 
 import Featured from '../Featured/Featureds';
+import Footer from '../Footer/footer';
 
 
 
@@ -14,6 +15,7 @@ const Admin = () => {
           
             <Outlet></Outlet>
             <Featured></Featured>
+            <Footer></Footer>
         </div>
     );
 };

@@ -2,7 +2,7 @@
     {
       "id": 1,
       "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-      "job_title": "Software Engineer",
+      "job_title": "Technical Database Engineer",
       "company_name": "ABC Inc.",
       "remote_or_onsite": "Remote",
       "location": "New York, NY",
@@ -20,7 +20,7 @@
     {
       "id": 2,
       "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-      "job_title": "Marketing Manager",
+      "job_title": "Senior Product Designer",
       "company_name": "XYZ Corp.",
       "remote_or_onsite": "Onsite",
       "location": "San Francisco, CA",
@@ -38,7 +38,7 @@
     {
       "id": 3,
       "company_logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
-      "job_title": "Sales Representative",
+      "job_title": "Software Engineer",
       "company_name": "123 LLC",
       "remote_or_onsite": "Remote",
       "location": "Austin, TX",

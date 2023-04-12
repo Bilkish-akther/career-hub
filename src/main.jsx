@@ -11,6 +11,7 @@ import Statistics from './components/Statistics/Statistics';
 import ApliedJob from './components/Apliedjob/ApliedJob';
 import Cetagory from "./components/Cetagory/Cetagory";
 import Featured from "./components/Featured/Featureds";
+import Footer from "./components/Footer/footer";
 
 
 
@@ -43,7 +44,11 @@ import Featured from "./components/Featured/Featureds";
           
         },
 
+             {
 
+              path: '/footer',
+              element: <Footer></Footer>
+             }
 
       ]
     },
