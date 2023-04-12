@@ -8,7 +8,8 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Netlify Deploy](#setup)
-* [Netlify Live link And Git Hub Link](#setup)
+* [Netlify Live link ](#setup)
+* [ Git Hub Link](#setup)
     # Number Of Tools Using In Project 
     ### Git for version control
     ### GitHub or GitLab for hosting the code and collaboration

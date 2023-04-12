@@ -3,6 +3,7 @@ import { getJobCart } from "../Utilities/Utilities";
 import { faHourglass1 } from "@fortawesome/free-solid-svg-icons";
 import JobCartDesign from "../../assets/Category Image/JobCartDesign/JobCartDesign";
 import "./JobCart.css";
+import NojobDesign from "../NoJobDesign/NojobDesign";
 
 const JobCart = () => {
   let filterType = "all";
@@ -64,7 +65,7 @@ const JobCart = () => {
         <div className="my-10">
           <JobCartDesign jobCartDe={jobCartDe}></JobCartDesign>
         </div>
-      )):<h1>No Jobs Found</h1>}
+      )):<NojobDesign></NojobDesign>}
     </div>
   );
 };
