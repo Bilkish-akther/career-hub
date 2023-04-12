@@ -1,0 +1,7 @@
+@media screen and (min-width<768px) {
+    .job-category-container{
+        display: flex;
+        grid-template-columns: repeat(1fr 2);
+    }
+    
+}

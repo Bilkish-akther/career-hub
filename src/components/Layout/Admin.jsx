@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
+import './Admin.css'
 
 import Featured from '../Featured/Featureds';
 import Footer from '../Footer/Footer';
@@ -9,10 +10,10 @@ import Footer from '../Footer/Footer';
 
 const Admin = () => {
     return (
-        <div>
-            <Header></Header>
+        <div className='main'>
+            <div className='header'><Header></Header></div>
             <Outlet></Outlet>
-             <Footer></Footer>
+            <div className='footer'> <Footer></Footer></div>
         </div>
     );
 };

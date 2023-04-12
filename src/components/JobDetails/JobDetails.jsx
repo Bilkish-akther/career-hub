@@ -6,8 +6,7 @@ import { addToDb } from "../Utilities/Utilities";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import {  faLocationDot,faDollar,faEnvelope, faPhone,faPenToSquare } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faLocationDot,faDollar,faEnvelope, faPhone,faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -48,7 +47,7 @@ const JobDetails = () => {
       </div>
       <div className="main-container gap-0 rounded -ms-24 mt-11 me-6 px-20 py-12">
 
-        <div className="jobMain">
+        <div className="balDesign">
          <h1 className="" ><span className=" text-2xl ">job_description: </span> {job_description}</h1>
           <p> <span className=" text-2xl"> job_responsibility: </span> {job_responsibility}</p>
           <h1><span className=" text-2xl "> educational_requirements:</span> {educational_requirements}</h1>

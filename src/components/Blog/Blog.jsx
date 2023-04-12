@@ -1,58 +1,68 @@
 import React from 'react';
+import './Blog.css'
 
 const Blog = () => {
     return (
-        <div>
-        <div  className='AllQuestionDesign'>
-          <h2>1.When should you use context API?</h2>
-           <p>
-           Props and state are two important concepts used in React, a popular JavaScript library for building user interfaces <br></br><p>
-            Props (short for properties) are used to pass data from a parent component to a child component. They are read-only and cannot be modified by the child component. Props are passed as an object and are used to customize the behavior of a component based on the data they contain.
-            </p>
-             <p>State, on the other hand, is used to manage the internal state of a component. It is a mutable object that can be updated by the component itself. State is used to manage user interactions, handle form input, and update the UI based on changes in the data </p> Main difference between props and state is that props are passed down from a parent component and are read-only, while state is managed by the component itself and can be updated.
-           </p>
+        <div className='Question-one mt-20 ms-60 me-32' >
+            <div className='AllQuestionDesign'>
+                <h2>1.When should you use context API?</h2>
+                <p className='Question-one'>
+                
+                   Context is primarily used when some data needs to be accessible by many   components at different nesting levels. Apply it sparingly because it makes component reuse more difficult. If you only want to avoid passing some props through many levels, component composition is often a simpler solution than context
+                    When passing props down multiple levels becomes difficult and cumbersome.
+                    When you need to share data across multiple components that are not in a parent-child relationship.When you have a large application with many components that need access to the same data.When you need to avoid prop drilling and keep your code clean and readable.However, it's important to note that overusing the Context API can make your code harder to understand and maintain. So, you should carefully consider whether Context API is the right solution for your particular use case. 
+                    
+                    
+                </p>
 
 
 
-          <h2> 2.What is a custom hook?</h2>
-         
-         <p>
-         useState is a React Hook that allows you to add state to a functional component. we pass the initial state to this function, and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called
+                <h2> 2.What is a custom hook?</h2>
 
-         </p>
+                <p className='Question-two'>
+                A custom hook in React is a JavaScript function that starts with the prefix "use" and allows you to extract reusable logic from a component. It enables you to reuse stateful logic between components without using render props, higher-order components, or other complex patterns.
 
+                Custom hooks provide a way to encapsulate commonly used functionality that can be shared across multiple components. They are used to abstract away complex logic, reduce duplication, and promote code reusability.
 
+                A custom hook can use other built-in hooks, such as useState, useEffect, and useContext, to provide additional functionality to components. By creating custom hooks, developers can make their code more modular, easier to test, and less prone to bugs.
 
-          <h2>3.What is useRef?</h2>
-           
-           <p>
-           The useEffect hook in React is primarily used to perform side effects in functional components. A side effect is any operation that modifies something outside the component, such as updating the title of the document, subscribing to an external data source, or adding an event listener to the window object.
-
-           Here is Some Example       
-  Animating a component. If you want to animate a component based on its state orprops  Cleaning up after a component.  we might want to perform some cleanup tasks, such  as removing event listeners 
-           </p>
+                For example, a custom hook might encapsulate the logic for fetching data from an API and storing it in state. This hook could then be used in multiple co
+                </p>
 
 
 
-       <h2>4.What is useMemo?</h2>
-      <p>
-      React is a JavaScript library that allows you to build user interfaces by creating reusable components1. It works by creating a virtual representation of the DOM  called the Virtual DOM2. When a components state changes, React updates the Virtual DOM and then compares it with the previous version of the Virtual DOM to determine what has changed2. It then updates only those parts of the actual DOM that have changed2. This makes React very fast and efficient
-      <p>Under The Below React Some Ways Are work:</p>
-      React compares the current Virtual DOM to the previous Virtual DOM to determine what has changed. This process is called reconciliation.<br></br> Based on the changes that have occurred, React updates the actual DOM to reflect the new state of the UI.<br></br>If the state of your application changes, React re-renders the affected components, updates the Virtual DOM, and performs reconciliation again.
+                <h2 className='Question-three'>3.What is useRef?</h2>
 
-   
+                <p>
+                In React, useRef is a hook that provides a way to store and access mutable values that persist between renders. It returns a mutable ref object that can hold any value, similar to the ref object used in class components.
 
-    
+                The most common use case for useRef is to access the DOM nodes or elements in the component. When a ref is attached to a component, the ref object can be used to get a reference to the underlying DOM node or element. This allows you to manipulate the DOM directly, bypassing React's virtual DOM, and access properties or methods of the underlying DOM node.
 
-      </p>
-
-        </div> 
+                Additionally, useRef can be used to store and access any other mutable value that needs to persist between renders, such as a timer ID or a value that needs to be accessed from within an event handler.
+                </p>
 
 
 
+                <h2 className='Question-four'>4.What is useMemo?</h2>
+                <p>
+                The useMemo hook in React is used to optimize the performance of functional components by caching the result of an expensive calculation. When a component re-renders, it may execute the same calculations again and again, even if the inputs to those calculations haven't changed. This can be a waste of resources, especially if the calculation is time-consuming.
+
+                The useMemo hook memoizes the result of the calculation, meaning that it stores the value in memory and only recalculates it if the inputs to the calculation change. If the inputs are the same as before, useMemo will return the cached value instead of re-executing the calculation. This can help to improve the performance of your application by avoiding unnecessary calculations.
+
+                To use useMemo, you pass in a function that performs the calculation and an array of dependencies that the calculation depends on. The hook will compare the current dependencies to the previous dependencies and only re-execute the calculation if they have changed. If they are the same, the cached value will be returned.
+
+                Overall, useMemo is a useful tool for optimizing the performance of React applications that have expensive calculations or complex logic.
 
 
- </div>
+                </p>
+
+            </div>
+
+
+
+
+
+        </div>
     );
 };
 

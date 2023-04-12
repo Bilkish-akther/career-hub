@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getJobCart } from "../Utilities/Utilities";
-
+import { faHourglass1 } from "@fortawesome/free-solid-svg-icons";
 import JobCartDesign from "../../assets/Category Image/JobCartDesign/JobCartDesign";
 import "./JobCart.css";
 

@@ -15,6 +15,7 @@ import JobDetails from "./components/JobDetails/JobDetails";
 import Home from "./components/Home/Home";
 import JobCart from "./components/JobCart/JobCart";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
+import Blog from "./components/Blog/Blog";
 
 
   const router = createBrowserRouter([
@@ -40,6 +41,11 @@ import ErrorPage from "./components/ErrorPage/ErrorPage";
         {
           path: "details/:id",
           element: <JobDetails></JobDetails>,
+          
+        },
+        {
+          path: "/blog",
+          element: <Blog></Blog>,
           
         },
         {

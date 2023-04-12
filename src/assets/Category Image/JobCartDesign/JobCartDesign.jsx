@@ -1,7 +1,7 @@
 import React from "react";
 import "./JobCart.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  faLocationDot,faDollar } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faLocationDot,faDollar } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
 const JobCartDesign = ({ jobCartDe }) => {

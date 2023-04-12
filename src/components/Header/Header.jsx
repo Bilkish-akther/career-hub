@@ -4,24 +4,21 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="bg-gray-200 p-2">
-      <div className="hub ">
-        <h2 className="text-2xl font-semibold ">EmployNet</h2>
-        <nav className="gap-8  flex text-center">
-          <Link to="/" >Home</Link>
+    <div className="bg-gray-200 p-2  flex justify-evenly sticky">
+      <h2 className="text-2xl font-semibold ms-5">Job Finder</h2>
+      <div className="">
+        <nav className="gap-8  flex text-center justify-center pt-2">
+          <Link to="/">Home</Link>
           <Link to="/statistics">Statistics</Link>
           <Link to="/applied">Applied Jobs</Link>
-          <Link to="/blog">Blog</Link>
+          <Link to="/">Blog</Link>
         </nav>
-        <div>
-          {" "}
-          <button className="bg-violet-500  py-3 px-5 rounded text-white">
-            Star Applying
-          </button>
-        </div>
       </div>
-
-      
+      <div>
+        <button className="start-btn  py-3 px-5 rounded text-white  me-5">
+          Star Applying
+        </button>
+      </div>
     </div>
   );
 };
